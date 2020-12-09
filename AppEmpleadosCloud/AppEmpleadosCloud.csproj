@@ -1,0 +1,239 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29A1EB0A-B903-4E68-ACE0-FC9AB9E92DCE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppEmpleadosCloud</RootNamespace>
+    <AssemblyName>AppEmpleadosCloud</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44387</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\default.aspx" />
+    <Content Include="App\ListarEmpleados.aspx" />
+    <Content Include="App\Nosotros.aspx" />
+    <Content Include="App\resources\css\theme.css" />
+    <Content Include="App\resources\fonts\pt_sans-web-bold.svg" />
+    <Content Include="App\resources\fonts\pt_sans-web-regular.svg" />
+    <Content Include="App\resources\images\404.png" />
+    <Content Include="App\resources\images\access.png" />
+    <Content Include="App\resources\images\avatar_1.png" />
+    <Content Include="App\resources\images\avatar_2.png" />
+    <Content Include="App\resources\images\avatar_3.png" />
+    <Content Include="App\resources\images\avatar_4.png" />
+    <Content Include="App\resources\images\background\bg.png" />
+    <Content Include="App\resources\images\background\Carnet\Normalizate_Carnet.jpg" />
+    <Content Include="App\resources\images\background\Carnet\Onest_Carnet.jpg" />
+    <Content Include="App\resources\images\background\Carnet\Onest_Comercial_Carnet.jpg" />
+    <Content Include="App\resources\images\background\Carnet\Onest_Comercial_Carnet_1.jpg" />
+    <Content Include="App\resources\images\background\Carnet\Originar_Carnet.jpg" />
+    <Content Include="App\resources\images\background\Cartas\Membrete_Normalizate.jpg" />
+    <Content Include="App\resources\images\background\Cartas\Membrete_Onest.jpg" />
+    <Content Include="App\resources\images\background\Cartas\Membrete_Originar.jpg" />
+    <Content Include="App\resources\images\background\slogan.png" />
+    <Content Include="App\resources\images\error.png" />
+    <Content Include="App\resources\images\gif\preloader.gif" />
+    <Content Include="App\resources\images\icarus_screen.png" />
+    <Content Include="App\resources\images\icon\avatar_1.png" />
+    <Content Include="App\resources\images\icon\avatar_2.png" />
+    <Content Include="App\resources\images\icon\avatar_3.png" />
+    <Content Include="App\resources\images\icon\avatar_4.png" />
+    <Content Include="App\resources\images\icon\avatar__181424 - copia.png" />
+    <Content Include="App\resources\images\icon\avatar__181424.png" />
+    <Content Include="App\resources\images\icon\GITHUB.png" />
+    <Content Include="App\resources\images\icon\logo.png" />
+    <Content Include="App\resources\images\icon\logo.svg" />
+    <Content Include="App\resources\images\icon\Microsoft_Office_Excel.svg" />
+    <Content Include="App\resources\images\icon\Normalizate-icon.png" />
+    <Content Include="App\resources\images\icon\Onest-icon.png" />
+    <Content Include="App\resources\images\icon\Originar-icon.png" />
+    <Content Include="App\resources\images\icon\PDF_file_icon.svg" />
+    <Content Include="App\resources\images\icon\profile.png" />
+    <Content Include="App\resources\images\icon\Tux.png" />
+    <Content Include="App\resources\images\landing.png" />
+    <Content Include="App\resources\images\logo.svg" />
+    <Content Include="App\resources\images\logo\logo-Normalizate.png" />
+    <Content Include="App\resources\images\logo\Logo-Onest.png" />
+    <Content Include="App\resources\images\logo\Logo-Onest_max.png" />
+    <Content Include="App\resources\images\logo\Logo-Originar.png" />
+    <Content Include="App\resources\images\logo\logo.jpg" />
+    <Content Include="App\resources\images\logo\logo.png" />
+    <Content Include="App\resources\images\logo\logo.svg" />
+    <Content Include="App\resources\images\logo\logo1.svg" />
+    <Content Include="App\resources\images\logo\logonit_Vantange-color1.png" />
+    <Content Include="App\resources\images\logo\logo_Vantange-color.png" />
+    <Content Include="App\resources\images\logo\logo_Vantange.png" />
+    <Content Include="App\resources\images\preloader.gif" />
+    <Content Include="App\resources\images\profile.png" />
+    <Content Include="App\Formulario.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Layout.Master.cs">
+      <DependentUpon>Layout.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Layout.Master.designer.cs">
+      <DependentUpon>Layout.Master</DependentUpon>
+    </Compile>
+    <Compile Include="App\ListarEmpleados.aspx.cs">
+      <DependentUpon>ListarEmpleados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\ListarEmpleados.aspx.designer.cs">
+      <DependentUpon>ListarEmpleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Nosotros.aspx.cs">
+      <DependentUpon>Nosotros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Nosotros.aspx.designer.cs">
+      <DependentUpon>Nosotros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\packages\Conecction\Conexion.cs" />
+    <Compile Include="App\packages\Controler\EmpleadosControler.cs" />
+    <Compile Include="App\packages\Entity\Empleados.cs" />
+    <Compile Include="App\packages\Util\ValidarFormulario.cs" />
+    <Compile Include="App\Formulario.aspx.cs">
+      <DependentUpon>Formulario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Formulario.aspx.designer.cs">
+      <DependentUpon>Formulario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Layout.Master" />
+    <Content Include="App\resources\scss\components\_header.scss" />
+    <Content Include="App\resources\scss\components\_main.scss" />
+    <Content Include="App\resources\scss\components\_gid.scss" />
+    <None Include="packages.config" />
+    <Content Include="App\resources\scss\components\_foter.scss" />
+    <Content Include="App\resources\scss\components\_menu.scss" />
+    <Content Include="App\resources\scss\components\_variables.scss" />
+    <Content Include="App\resources\scss\theme.scss" />
+    <Content Include="App\resources\fonts\pt_sans-web-bold.eot" />
+    <Content Include="App\resources\fonts\pt_sans-web-bold.ttf" />
+    <Content Include="App\resources\fonts\pt_sans-web-bold.woff" />
+    <Content Include="App\resources\fonts\pt_sans-web-bold.woff2" />
+    <Content Include="App\resources\fonts\pt_sans-web-regular.eot" />
+    <Content Include="App\resources\fonts\pt_sans-web-regular.ttf" />
+    <Content Include="App\resources\fonts\pt_sans-web-regular.woff" />
+    <Content Include="App\resources\fonts\pt_sans-web-regular.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52164</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44387/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

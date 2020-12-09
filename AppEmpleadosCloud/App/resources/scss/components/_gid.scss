@@ -1,0 +1,25 @@
+@import "_variables";
+
+
+
+.contenedorDatos {
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: medium;
+    font-weight: 300;
+}
+.contenedorGib {
+    display: flex;
+}
+
+.formatoGrid {
+    width: 100%;
+}
+
+.contenedorGrid {
+    width: 100%;
+}

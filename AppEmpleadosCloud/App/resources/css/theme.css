@@ -1,0 +1,395 @@
+@font-face {
+  font-family: 'PT_Sans';
+  font-weight: normal;
+  src: url(../fonts/pt_sans-web-regular.eot);
+  /* IE9 Compat Modes */
+  src: url(../fonts/pt_sans-web-regular.eot) format("embedded-opentype"), url("../fonts/pt_sans-web-regular.woff2") format("woff2"), url(../fonts/pt_sans-web-regular.woff) format("woff"), url("#{resource['fonts/pt_sans-web-regular.ttf']}") format("truetype"), url("#{resource['fonts/pt_sans-web-regular.svg']}#PT_Sans") format("svg");
+  /* Legacy iOS */ }
+
+/* pt-sans-700 */
+@font-face {
+  font-family: 'PT_Sans';
+  font-weight: bold;
+  src: url("#{resource['fonts/pt_sans-web-bold.eot']}");
+  /* IE9 Compat Modes */
+  src: url("#{resource['fonts/pt_sans-web-bold.eot']}#iefix") format("embedded-opentype"), url("#{resource['fonts/pt_sans-web-bold.woff2']}") format("woff2"), url("#{resource['fonts/pt_sans-web-bold.woff']}") format("woff"), url("#{resource['fonts/pt_sans-web-bold.ttf']}") format("truetype"), url("#{resource['fonts/pt_sans-web-bold.svg']}#PT_Sans") format("svg");
+  /* Legacy iOS */ }
+
+/* GreenButton */
+/* RedButton */
+/* greyButton */
+/* BlackButton */
+/* BlueButton */
+/* AquaButton */
+/* NavyButton */
+/* GradientBack*/
+/* Landing Page */
+@font-face {
+  font-family: 'PT_Sans';
+  font-weight: normal;
+  src: url(../fonts/pt_sans-web-regular.eot);
+  /* IE9 Compat Modes */
+  src: url(../fonts/pt_sans-web-regular.eot) format("embedded-opentype"), url("../fonts/pt_sans-web-regular.woff2") format("woff2"), url(../fonts/pt_sans-web-regular.woff) format("woff"), url("#{resource['fonts/pt_sans-web-regular.ttf']}") format("truetype"), url("#{resource['fonts/pt_sans-web-regular.svg']}#PT_Sans") format("svg");
+  /* Legacy iOS */ }
+
+/* pt-sans-700 */
+@font-face {
+  font-family: 'PT_Sans';
+  font-weight: bold;
+  src: url("#{resource['fonts/pt_sans-web-bold.eot']}");
+  /* IE9 Compat Modes */
+  src: url("#{resource['fonts/pt_sans-web-bold.eot']}#iefix") format("embedded-opentype"), url("#{resource['fonts/pt_sans-web-bold.woff2']}") format("woff2"), url("#{resource['fonts/pt_sans-web-bold.woff']}") format("woff"), url("#{resource['fonts/pt_sans-web-bold.ttf']}") format("truetype"), url("#{resource['fonts/pt_sans-web-bold.svg']}#PT_Sans") format("svg");
+  /* Legacy iOS */ }
+
+/* GreenButton */
+/* RedButton */
+/* greyButton */
+/* BlackButton */
+/* BlueButton */
+/* AquaButton */
+/* NavyButton */
+/* GradientBack*/
+/* Landing Page */
+.menuNav {
+  background-color: #1a51b0;
+  width: 300px;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: center; }
+  .menuNav .menuUl {
+    display: flex;
+    width: 100%;
+    align-items: center; }
+  .menuNav .menuLi {
+    list-style: none; }
+  .menuNav .menuLink {
+    background-color: #212121;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none; }
+  .menuNav .menuLink:hover {
+    background-color: #4a4a4a; }
+
+@font-face {
+  font-family: 'PT_Sans';
+  font-weight: normal;
+  src: url(../fonts/pt_sans-web-regular.eot);
+  /* IE9 Compat Modes */
+  src: url(../fonts/pt_sans-web-regular.eot) format("embedded-opentype"), url("../fonts/pt_sans-web-regular.woff2") format("woff2"), url(../fonts/pt_sans-web-regular.woff) format("woff"), url("#{resource['fonts/pt_sans-web-regular.ttf']}") format("truetype"), url("#{resource['fonts/pt_sans-web-regular.svg']}#PT_Sans") format("svg");
+  /* Legacy iOS */ }
+
+/* pt-sans-700 */
+@font-face {
+  font-family: 'PT_Sans';
+  font-weight: bold;
+  src: url("#{resource['fonts/pt_sans-web-bold.eot']}");
+  /* IE9 Compat Modes */
+  src: url("#{resource['fonts/pt_sans-web-bold.eot']}#iefix") format("embedded-opentype"), url("#{resource['fonts/pt_sans-web-bold.woff2']}") format("woff2"), url("#{resource['fonts/pt_sans-web-bold.woff']}") format("woff"), url("#{resource['fonts/pt_sans-web-bold.ttf']}") format("truetype"), url("#{resource['fonts/pt_sans-web-bold.svg']}#PT_Sans") format("svg");
+  /* Legacy iOS */ }
+
+/* GreenButton */
+/* RedButton */
+/* greyButton */
+/* BlackButton */
+/* BlueButton */
+/* AquaButton */
+/* NavyButton */
+/* GradientBack*/
+/* Landing Page */
+.header {
+  width: 90%;
+  background-color: #1a51b0;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid #0a0a0a; }
+
+@font-face {
+  font-family: 'PT_Sans';
+  font-weight: normal;
+  src: url(../fonts/pt_sans-web-regular.eot);
+  /* IE9 Compat Modes */
+  src: url(../fonts/pt_sans-web-regular.eot) format("embedded-opentype"), url("../fonts/pt_sans-web-regular.woff2") format("woff2"), url(../fonts/pt_sans-web-regular.woff) format("woff"), url("#{resource['fonts/pt_sans-web-regular.ttf']}") format("truetype"), url("#{resource['fonts/pt_sans-web-regular.svg']}#PT_Sans") format("svg");
+  /* Legacy iOS */ }
+
+/* pt-sans-700 */
+@font-face {
+  font-family: 'PT_Sans';
+  font-weight: bold;
+  src: url("#{resource['fonts/pt_sans-web-bold.eot']}");
+  /* IE9 Compat Modes */
+  src: url("#{resource['fonts/pt_sans-web-bold.eot']}#iefix") format("embedded-opentype"), url("#{resource['fonts/pt_sans-web-bold.woff2']}") format("woff2"), url("#{resource['fonts/pt_sans-web-bold.woff']}") format("woff"), url("#{resource['fonts/pt_sans-web-bold.ttf']}") format("truetype"), url("#{resource['fonts/pt_sans-web-bold.svg']}#PT_Sans") format("svg");
+  /* Legacy iOS */ }
+
+/* GreenButton */
+/* RedButton */
+/* greyButton */
+/* BlackButton */
+/* BlueButton */
+/* AquaButton */
+/* NavyButton */
+/* GradientBack*/
+/* Landing Page */
+.estiloMain {
+  width: 90%;
+  background-color: tomato;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center; }
+
+/* estilos contenedor*/
+.contenedorDatoForm {
+  width: 50%;
+  display: flex;
+  margin: 5px; }
+
+.contenedorTodoForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.contenedorLabel {
+  width: 30%;
+  text-align: right; }
+
+.contenedorText {
+  width: 40%;
+  margin-left: 10px; }
+
+.contenedorError {
+  width: 30%;
+  text-align: left;
+  margin-left: 10px; }
+
+.menuApp {
+  width: 100%;
+  background-color: white;
+  margin: 15px; }
+
+.contendeorApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+
+.btnApp {
+  background-color: #dc7633;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  text-decoration: none; }
+
+.btnApp:hover {
+  background-color: #1b4f72; }
+
+.contenedorBtnApp {
+  display: flex;
+  align-items: center; }
+
+.contenedorDatoForm {
+  width: 50%;
+  display: flex;
+  margin: 5px; }
+
+.contenedorTodoForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.contenedorLabel {
+  width: 30%;
+  text-align: right; }
+
+.contenedorText {
+  width: 40%;
+  margin-left: 10px; }
+
+.contenedorError {
+  width: 30%;
+  text-align: left;
+  margin-left: 10px; }
+
+.cards {
+  background-color: white;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px; }
+
+.contenedorCards {
+  background-color: tomato;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.contenedorGib {
+  display: flex; }
+
+.ico {
+  height: 30px;
+  margin-right: 30px; }
+
+.pic {
+  height: 200px; }
+
+.contededorImg {
+  width: 30%;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #000000; }
+
+.textoH1 {
+  text-align: center;
+  font-size: large;
+  font-weight: 400; }
+
+.contenedorTexto {
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #000000; }
+
+.picProgramador {
+  height: 120px;
+  border-radius: 120px; }
+
+.textoResaltado {
+  margin: 0;
+  padding: 0;
+  font-size: medium;
+  font-weight: 500; }
+
+.textoNormal {
+  margin: 0;
+  padding: 0;
+  font-size: large;
+  font-weight: 300; }
+
+.cards {
+  background-color: white;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px; }
+
+.contenedorCards {
+  background-color: tomato;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+@font-face {
+  font-family: 'PT_Sans';
+  font-weight: normal;
+  src: url(../fonts/pt_sans-web-regular.eot);
+  /* IE9 Compat Modes */
+  src: url(../fonts/pt_sans-web-regular.eot) format("embedded-opentype"), url("../fonts/pt_sans-web-regular.woff2") format("woff2"), url(../fonts/pt_sans-web-regular.woff) format("woff"), url("#{resource['fonts/pt_sans-web-regular.ttf']}") format("truetype"), url("#{resource['fonts/pt_sans-web-regular.svg']}#PT_Sans") format("svg");
+  /* Legacy iOS */ }
+
+/* pt-sans-700 */
+@font-face {
+  font-family: 'PT_Sans';
+  font-weight: bold;
+  src: url("#{resource['fonts/pt_sans-web-bold.eot']}");
+  /* IE9 Compat Modes */
+  src: url("#{resource['fonts/pt_sans-web-bold.eot']}#iefix") format("embedded-opentype"), url("#{resource['fonts/pt_sans-web-bold.woff2']}") format("woff2"), url("#{resource['fonts/pt_sans-web-bold.woff']}") format("woff"), url("#{resource['fonts/pt_sans-web-bold.ttf']}") format("truetype"), url("#{resource['fonts/pt_sans-web-bold.svg']}#PT_Sans") format("svg");
+  /* Legacy iOS */ }
+
+/* GreenButton */
+/* RedButton */
+/* greyButton */
+/* BlackButton */
+/* BlueButton */
+/* AquaButton */
+/* NavyButton */
+/* GradientBack*/
+/* Landing Page */
+.estiloFooter {
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .estiloFooter .textoFooter {
+    font-size: small; }
+
+@font-face {
+  font-family: 'PT_Sans';
+  font-weight: normal;
+  src: url(../fonts/pt_sans-web-regular.eot);
+  /* IE9 Compat Modes */
+  src: url(../fonts/pt_sans-web-regular.eot) format("embedded-opentype"), url("../fonts/pt_sans-web-regular.woff2") format("woff2"), url(../fonts/pt_sans-web-regular.woff) format("woff"), url("#{resource['fonts/pt_sans-web-regular.ttf']}") format("truetype"), url("#{resource['fonts/pt_sans-web-regular.svg']}#PT_Sans") format("svg");
+  /* Legacy iOS */ }
+
+/* pt-sans-700 */
+@font-face {
+  font-family: 'PT_Sans';
+  font-weight: bold;
+  src: url("#{resource['fonts/pt_sans-web-bold.eot']}");
+  /* IE9 Compat Modes */
+  src: url("#{resource['fonts/pt_sans-web-bold.eot']}#iefix") format("embedded-opentype"), url("#{resource['fonts/pt_sans-web-bold.woff2']}") format("woff2"), url("#{resource['fonts/pt_sans-web-bold.woff']}") format("woff"), url("#{resource['fonts/pt_sans-web-bold.ttf']}") format("truetype"), url("#{resource['fonts/pt_sans-web-bold.svg']}#PT_Sans") format("svg");
+  /* Legacy iOS */ }
+
+/* GreenButton */
+/* RedButton */
+/* greyButton */
+/* BlackButton */
+/* BlueButton */
+/* AquaButton */
+/* NavyButton */
+/* GradientBack*/
+/* Landing Page */
+.contenedorDatos {
+  width: 90%;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  font-size: medium;
+  font-weight: 300; }
+
+.contenedorGib {
+  display: flex; }
+
+.formatoGrid {
+  width: 100%; }
+
+.contenedorGrid {
+  width: 100%; }
+
+body {
+  width: 100%;
+  background-image: url(../images/background/bg.png);
+  font-family: 'PT_Sans', sans-serif; }

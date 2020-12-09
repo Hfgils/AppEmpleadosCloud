@@ -1,0 +1,41 @@
+@import "_variables";
+
+
+$color_white: white;
+$color_blue: #1b4f72;
+$color_orange:#dc7633;
+
+
+
+.menuNav {
+    background-color: $blueDark;
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+
+
+    .menuUl {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .menuLi {
+        list-style: none;
+    }
+
+    .menuLink {
+        background-color: $blackButtonActive;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+    .menuLink:hover {
+        background-color: $blackButtonHover;
+    }
+}

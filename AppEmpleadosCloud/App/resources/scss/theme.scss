@@ -1,0 +1,16 @@
+﻿$color_bg:#ebf5fb;
+@import "Components/_variables";
+@import "Components/_menu.scss";
+@import "Components/_header";
+@import "Components/_main";
+@import "Components/_foter";
+@import "Components/_gid";
+
+
+body {
+    width: 100%;
+    background-image: url(../images/background/bg.png);
+    font-family: 'PT_Sans', sans-serif;
+
+}
+ 

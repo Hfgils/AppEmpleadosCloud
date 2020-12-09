@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="AppEmpleadosCloud.App.Layout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="shortcut icon" href="resources/images/logo.svg" type="image/x-icon" />
+    <link href="resources/css/theme.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header class="header">
+                <nav class="menuNav">
+                    <ul class="menuUl">
+                        <li class="menuLi"><a class="menuLink" href="default.aspx">Home </a></li>
+                        <li class="menuLi"><a class="menuLink" href="ListarEmpleados.aspx">Datos </a></li>
+                        <li class="menuLi"><a class="menuLink" href="Formulario.aspx"> Formulario</a></li>
+                        <li class="menuLi"><a class="menuLink" href="Nosotros.aspx">Nosotros</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <footer class="estiloFooter">
+                <h3 class="textoFooter">by: Herney F. Gil</h3>
+                <div class="contenedorGib">
+                    <div>
+                        <a href="https://github.com/jroperosena">
+                            <img class="ico" src="resources/images/icon/GITHUB.png" alt=""></a>
+                    </div>
+                    <div>
+                        <small>jroperosena </small>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
